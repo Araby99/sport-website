@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap');
+body {
+    font-family: 'Andika New Basic', sans-serif;
+    background: navajowhite;
+}
+a {
+    text-decoration: none;
+}
+a:hover,
+a:visited {
+    color: currentColor;
+}
+a:hover {
+    text-decoration: none;
+}
+.header {
+    height: 100vh;
+}
+.header .nav {
+    width: 100%;
+}
+.header .nav .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .nav a {
+    flex: 1;
+}
+.header .nav .links {
+    padding: 10px;
+    width: 30px;
+    background: #fff;
+    border: solid 3px rgb(51, 102, 179);
+    text-align: center;
+    margin: 0 20px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    transition: .5s;
+}
+.container {
+    width: 70%;
+    margin: auto;
+}
+.header .nav .links:hover {
+    background: rgb(51, 102, 179);
+    color: #fff;
+}
+.header .nav img {
+    height: 200px;
+}
+.header .contect {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: auto;
+}
+.item {
+    width: 100%;
+    margin: 50px;
+    border: dashed 1px #000;
+}
+.item img {
+    width: 100%;
+}
+.item .card-de {
+    text-align: center;
+    margin: 20px 0;
+}
+.comment {
+    padding: 50px 0;
+}
+.comment .title {
+    font-size: 2rem;
+    text-align: center;
+}
+.comment label {
+    margin: 10px 0;
+}
+form > * {
+    display: block;
+    width: 100%;
+}
+form input {
+    padding: 10px;
+}

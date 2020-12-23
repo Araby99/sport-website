@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap');
+body {
+    font-family: 'Andika New Basic', sans-serif;
+    background: navajowhite;
+}
+a {
+    text-decoration: none;
+}
+a:hover,
+a:visited {
+    color: currentColor;
+}
+.container {
+    width: 70%;
+    margin: auto;
+}
+a:hover {
+    text-decoration: none;
+}
+.header {
+    height: 100vh;
+}
+.header .nav {
+    width: 100%;
+}
+.header .nav::after {
+    content: "";
+    height: 1px;
+    width: 70%;
+    background: #000;
+    margin: auto;
+}
+.header .nav .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .nav a {
+    flex: 1;
+}
+.header .nav .links {
+    padding: 10px;
+    width: 30px;
+    background: #fff;
+    border: solid 3px rgb(51, 102, 179);
+    text-align: center;
+    margin: 0 20px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    transition: .5s;
+}
+.header .nav .links:hover {
+    background: rgb(51, 102, 179);
+    color: #fff;
+}
+.header .nav img {
+    height: 200px;
+}
+.header .contect {
+    padding: 50px;
+}
+.header .contect .title {
+    font-size: 2rem;
+    font-weight: 800;
+}
+.header .contect .gallary {
+    display: block;
+    margin: 50px auto;
+    height: 300px;
+}
+.header .contect .gallary img {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    height: 300px;
+    z-index: 1;
+    transition: .5s;
+}
+.header .contect iframe {
+    height: 720px;
+    width: 100%;
+    margin: 20px auto;
+}
+.table {
+    border: solid 1px ;
+    width: 100%;
+}
+.table th {
+    font-size: 1.5rem;
+}
+.table th, 
+.table td {
+    border-top: solid 1px #000;
+}
+.contect marquee {
+    padding: 10px;
+    font-size: 2rem;
+}
